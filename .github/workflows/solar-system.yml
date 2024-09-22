@@ -60,7 +60,7 @@ jobs:
     docker:
       runs-on: ubuntu-latest
       permissions:
-        issues: write
+        packages: write
       needs:
       - code-coverage
       - unit-testing
