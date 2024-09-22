@@ -59,6 +59,8 @@ jobs:
             retention-days: 5
     docker:
       runs-on: ubuntu-latest
+      permissions:
+        issues: write
       needs:
       - code-coverage
       - unit-testing
